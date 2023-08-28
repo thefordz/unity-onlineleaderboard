@@ -13,7 +13,7 @@ namespace Dan.Models
         public int Rank;
         [SerializeField] internal string UserGuid;
         [field: System.NonSerialized] internal string NewUsername { get; set; }
-        
+
         /// <summary>
         /// Returns whether the entry is the current user's entry.
         /// </summary>
@@ -35,5 +35,6 @@ namespace Dan.Models
 
             return $"{rank}{suffix}";
         }
+
     }
 }

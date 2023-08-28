@@ -30,12 +30,13 @@ public class LeaderBoard : MonoBehaviour
             {
                 names[i].text = msg[i].Username;
 
-              
 
                 scores[i].text = msg[i].Score.ToString();
             }
         }));
     }
+
+
 
     //Set Score
     public void SetLeaderboardEntry(string username, int score)
@@ -47,7 +48,7 @@ public class LeaderBoard : MonoBehaviour
             //if (System.Array.IndexOf (badWords, name) != -1) return;
 
             //Cut Username
-            //username.Substring(0, 4);
+            //username.Substring(2);
             
             //Format
            
